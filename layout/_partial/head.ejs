@@ -92,9 +92,10 @@
     <!-- Gallery -->
     <link href="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.3.5/featherlight.min.css" type="text/css" rel="stylesheet" />
 
-    <!-- Google Analytics -->
-    <%- partial('google-analytics') %>
+    <% if (env.env === 'production'){ %>
 
+    <%- partial('google-analytics') %>
     <%- partial('facebook-pixel') %>
 
+    <% } %>
 </head>
