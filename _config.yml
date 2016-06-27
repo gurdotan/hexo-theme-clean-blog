@@ -1,7 +1,7 @@
 # Header
 menu:
-  Home: /
-  Archives: /archives
+#  Home: /
+#  Archives: /archives
   Github:
     url: https://github.com/klugjo/hexo-theme-clean-blog
     icon: github
