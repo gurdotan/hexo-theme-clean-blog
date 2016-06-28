@@ -4,7 +4,7 @@ menu:
 #  Archives: /archives
   About: /about/
   Github:
-    url: https://github.com/klugjo/hexo-theme-clean-blog
+    url: https://github.com/gurdotan
     icon: github
 
 # Title on top left of menu. Leave empty to use main blog title
