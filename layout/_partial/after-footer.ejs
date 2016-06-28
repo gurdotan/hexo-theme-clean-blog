@@ -25,3 +25,19 @@
     }());
 </script>
 <% } %>
+
+<%- js('js/typed.min.js') %>
+
+
+<script>
+    $(function() {
+        $('#things-i-do').typed({
+            strings  : ['cycling Tel Aviv.', 'surfing at sunset.', 'playing my guitar.', 'boozing away.', 'chasing my kids.', 'teasing my wife.'],
+            typeSpeed: 20,
+            backSpeed: 20,
+            startDelay: 100,
+            backDelay: 1000,
+            loop     : true
+        });
+    })
+</script>
